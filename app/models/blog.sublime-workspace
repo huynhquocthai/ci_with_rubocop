@@ -1,0 +1,222 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"commn",
+				"comments"
+			],
+			[
+				"co",
+				"comments"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"foo",
+				"footer"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/thaihuynh/rails_projects/blog/config/routes.rb",
+		"/home/thaihuynh/rails_projects/blog/app/views/posts/show.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/comments/_form.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/controllers/posts_controller.rb",
+		"/home/thaihuynh/rails_projects/blog/app/models/post.rb",
+		"/home/thaihuynh/rails_projects/blog/app/controllers/comments_controller.rb",
+		"/home/thaihuynh/rails_projects/blog/app/views/comments/_comment.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/posts/new.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/posts/index.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/posts/_form.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/posts/edit.html.erb",
+		"/home/thaihuynh/rails_projects/blog/db/migrate/20131214032525_create_comments.rb",
+		"/home/thaihuynh/rails_projects/blog/app/controllers/users_controller.rb",
+		"/home/thaihuynh/rails_projects/blog/app/views/users/new.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/users/show.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/users/index.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/models/user.rb",
+		"/home/thaihuynh/rails_projects/blog/app/views/welcome/index.html.erb",
+		"/home/thaihuynh/rails_projects/blog/db/migrate/20131119081330_create_logins.rb",
+		"/home/thaihuynh/rails_projects/blog/app/views/logins/new.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/logins/show.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/views/logins/index.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/controllers/logins_controller.rb",
+		"/home/thaihuynh/rails_projects/blog/app/views/login/login.html.erb",
+		"/home/thaihuynh/rails_projects/blog/app/controllers/login_controller.rb",
+		"/home/thaihuynh/rails_projects/blog/app/controllers/welcome_controller.rb",
+		"/home/thaihuynh/rails_projects/blog/db/development.sqlite3",
+		"/home/thaihuynh/rails_projects/sample_app/app/models/user.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/helpers/users_helper.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/thaihuynh/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/controllers/application_controller.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/home/thaihuynh/rails_projects/sample_app/config/routes.rb",
+		"/home/thaihuynh/rails_projects/sample_app/app/views/static_pages/help.html.erb",
+		"/home/thaihuynh/rails_projects/sample_app/app/views/static_pages/about.html.erb",
+		"/home/thaihuynh/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/home/thaihuynh/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/thaihuynh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/thaihuynh/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
