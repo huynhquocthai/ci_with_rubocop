@@ -11,3 +11,4 @@
   <% end %>
 </div>
 <%= link_to image_tag("http://rubyonrails.org/images/rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+<%= social_share_button_tag('Sample', link_text: 'Share', :allow_sites => %w(facebook), url: "#{root_path}", image: '') %>
