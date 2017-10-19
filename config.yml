@@ -1,0 +1,12 @@
+- run: bash .circleci/setup-heroku.sh
+- add_ssh_keys:
+    fingerprints:
+      - "24:8d:4e:33:40:0c:ab:27:65:76:0d:f4:a6:93:d8:46"
+- deploy:
+    name: Deploy Master to Heroku
+    command: |
+      if [ "${CIRCLE_BRANCH}" == "master" ]; then
+        git push --force git@heroku.com:$HEROKU_APP_NAME.git HEAD:refs/heads/master
+        heroku run python manage.py deploy
+        heroku restart
+      fi
