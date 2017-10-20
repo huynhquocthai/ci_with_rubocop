@@ -1,0 +1,11 @@
+inherit_from: .rubocop_todo.yml
+AllCops:
+  UseCache: true
+  Exclude:
+    - 'db/schema.rb'
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Layout/TrailingBlankLines:
+  Enabled: false
+Rails:
+  Enabled: true
