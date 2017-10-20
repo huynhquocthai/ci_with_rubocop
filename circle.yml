@@ -3,3 +3,7 @@ deployment:
     branch: master
     heroku:
       appname: railstutorial-web
+
+test:
+  post:
+    - bundle exec rubocop
