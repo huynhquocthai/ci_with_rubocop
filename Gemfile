@@ -18,6 +18,7 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'minitest'
   gem 'test-unit'
+  gem 'overcommit'
 end
 
 group :test do
