@@ -10,6 +10,7 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'simple_form'
 gem 'pg'
+gem 'rubocop', require: false
 # Social share button
 gem 'social-share-button', '~> 0.10.0'
 
