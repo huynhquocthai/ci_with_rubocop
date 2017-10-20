@@ -15,6 +15,7 @@ gem 'social-share-button', '~> 0.10.0'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
+  gem 'minitest'
 end
 
 group :test do
