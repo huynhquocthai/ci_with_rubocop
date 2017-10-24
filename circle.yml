@@ -4,6 +4,6 @@ deployment:
     heroku:
       appname: railstutorial-web
 
-test:
-  post:
-    - bundle exec rubocop
+# test:
+#   post:
+#     - bundle exec rubocop
