@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.3'
 
 #ruby-gemset=railstutorial_rails_4_0
 
@@ -17,7 +18,9 @@ gem 'social-share-button', '~> 0.10.0'
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'minitest'
+  gem 'rubocop-rspec'
   gem 'test-unit'
+  gem 'overcommit'
 end
 
 group :test do
