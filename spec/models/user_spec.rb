@@ -5,11 +5,15 @@ describe User do
   before do
     @user = User.new(name: "Example User", email: "user@example.com",
                      password: "foobar", password_confirmation: "foobar")
+    # let(:user) do
+    #   described_class.new(name: "Example User", email: "user@example.com",
+    #                       password: "foobar", password_confirmation: "foobar")
+    # end
   end
 
   subject { @user }
 
-  it { should respond_to(:name) }
+  it { is_expected.to respond_to(:name) }
   it { should respond_to(:email) }
   it { should respond_to(:password_digest) }
   it { should respond_to(:password) }
@@ -87,7 +91,7 @@ describe User do
     before { @user.password = @user.password_confirmation = "a" * 5 }
     it { should be_invalid }
   end
-  
+
   describe "return value of authenticate method" do
 	  before { @user.save }
 	  let(:found_user) { User.find_by(email: @user.email) }
