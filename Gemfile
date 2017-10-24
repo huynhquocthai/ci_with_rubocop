@@ -16,7 +16,7 @@ gem 'rubocop', require: false
 gem 'social-share-button', '~> 0.10.0'
 
 group :development, :test do
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails'
   gem 'minitest'
   gem 'rubocop-rspec'
   gem 'test-unit'
@@ -24,9 +24,9 @@ group :development, :test do
 end
 
 group :test do
-  gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
-  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'selenium-webdriver'
+  gem 'capybara'
+  gem 'cucumber-rails', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 

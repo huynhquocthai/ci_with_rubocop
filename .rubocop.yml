@@ -4,6 +4,7 @@ AllCops:
   UseCache: true
   Exclude:
     - 'db/schema.rb'
+    - 'vendor/**/*'
 Style/FrozenStringLiteralComment:
   Enabled: false
 Layout/TrailingBlankLines:
