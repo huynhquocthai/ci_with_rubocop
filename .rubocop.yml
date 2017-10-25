@@ -5,12 +5,14 @@ AllCops:
   Exclude:
     - 'db/schema.rb'
     - 'vendor/**/*'
+Documentation:
+    Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
 Layout/TrailingBlankLines:
   Enabled: false
 Rails:
-  Enabled: true
+  Enabled: false
 
 Layout/EmptyLineBetweenDefs:
   # If `true`, this parameter means that single line method definitions don't
