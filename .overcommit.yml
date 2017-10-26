@@ -1,5 +1,6 @@
+---
 PreCommit:
   RuboCop:
     enabled: true
     required: false
-    required_executable: "./bin/custom-script"
+    required_executable: "./bin/custom-script-1"
