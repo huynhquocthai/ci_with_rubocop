@@ -1,6 +1,6 @@
 class Sample < ActiveRecord::Base
   def print_something
-    p 'Hello world'
+    Rails.logger.info('Hello world')
   end
 
   def add(a, b)
