@@ -19,4 +19,4 @@ test:
   #   - bundle -v
   #   - bundle exec bundle -v
   post:
-    - bundle exec rubocop -f html -o `date +\%Y\%m\%d\%H\%M`-rubocop.html
+    - bundle exec rubocop
