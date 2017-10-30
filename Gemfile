@@ -19,6 +19,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'minitest'
   gem 'rubocop-rspec'
+  gem 'rubocop_default_config', '~> 0.1.2'
   gem 'test-unit'
   gem 'overcommit'
 end
